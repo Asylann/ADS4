@@ -10,7 +10,7 @@ public class Vertex<V> {
         this.connections = new HashMap<>();
     }
 
-    public void addAdjacentVertex(Vertex<V> destination, double weight) {
+    public void putConnection(Vertex<V> destination, double weight) {
         connections.put(destination, weight);
     }
 
