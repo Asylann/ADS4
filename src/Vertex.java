@@ -22,7 +22,7 @@ public class Vertex<V> {
         this.info = info;
     }
 
-    public HashMap<Vertex<V>, Double> getAdjacentVertices() {
+    public HashMap<Vertex<V>, Double> getConnections() {
         return connections;
     }
 
